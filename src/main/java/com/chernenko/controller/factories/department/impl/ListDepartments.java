@@ -1,4 +1,4 @@
-package com.chernenko.controller.departmentControllerImpl;
+package com.chernenko.controller.factories.department.impl;
 
 import com.chernenko.controller.MainController;
 import com.chernenko.services.DepartmentService;

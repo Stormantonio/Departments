@@ -1,4 +1,4 @@
-package com.chernenko.controller.employeeControllerImpl;
+package com.chernenko.controller.factories.employee.impl;
 
 import com.chernenko.controller.MainController;
 import com.chernenko.model.Employee;
@@ -10,11 +10,11 @@ import java.sql.SQLException;
 /**
  * Created by Anton on 09.04.2017.
  */
-public class GetEmployeeByDepartmentName implements MainController {
+public class CreateEmployee implements MainController {
     private EmployeeService employeeService = new EmployeeServiceImpl();
 
     @Override
     public void doAction() throws SQLException {
-        employeeService.getEmployeesByDepartmentName(new Employee().getDepartment().getDepartmentName());
+        employeeService.insertEmployee(new Employee());
     }
 }

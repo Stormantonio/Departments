@@ -1,4 +1,4 @@
-package com.chernenko.controller.employeeControllerImpl;
+package com.chernenko.controller.factories.employee.impl;
 
 import com.chernenko.controller.MainController;
 import com.chernenko.model.Employee;

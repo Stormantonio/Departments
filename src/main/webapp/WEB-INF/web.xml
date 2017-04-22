@@ -10,7 +10,7 @@
 
     <display-name>Archetype Created Web Application</display-name>
     <welcome-file-list>
-        <welcome-file>com.chernenko.controller.ServletController</welcome-file>
+        <welcome-file>com.chernenko.servlets.ServletController</welcome-file>
     </welcome-file-list>
 
     <context-param>
@@ -30,7 +30,7 @@
 
     <servlet>
         <servlet-name>ServletController</servlet-name>
-        <servlet-class>com.chernenko.controller.ServletController</servlet-class>
+        <servlet-class>com.chernenko.servlets.ServletController</servlet-class>
     </servlet>
 
     <servlet-mapping>
